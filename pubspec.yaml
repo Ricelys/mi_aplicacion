@@ -1,0 +1,31 @@
+name: mi_aplicacion
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^1.2.2  # Usa la versión que deseas
+  url_launcher: ^6.0.9  # Verifica si hay una versión más reciente
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.10.0 # Agrega este paquete para manejar íconos
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/your_photo.jpg  # Asegúrate de que este sea el nombre y la ruta correcta de tu foto
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/your_photo.jpg"  # Cambia esto al nombre de tu foto
